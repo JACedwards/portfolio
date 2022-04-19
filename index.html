@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     
 </head>
+
 <body>
     <nav>
         <ul class="nav-links">
@@ -20,22 +21,19 @@
         </ul>        
     </nav>
     
-    <div>
-        <table margin="0px" padding="0px">
-            <tr>
-                <td><img src="/images/seq-clump.jpg" height="75" object-position="scale-down"></td>
-                <td><img src="/images/yosemite-pano-1-best-for-emails.jpg" height="75" object-position="scale-down"></td>
-                <td><img src="/images/yosemite-2-emails.jpg" height="75" object-position="scale-down"></td>
-                <td><img src="/images/seq-upshot.jpg" height="75" object-position="scale-down"></td>
-                <td><img src="/images/sequoia-pano-1-email.jpg" height="75" object-position="scale-down"></td>
-                <td><img src="/images/seq-burnt.jpg" height="75" object-position="scale-down"></td>                            
-            </tr>
-        </table>            
+    <div class="flex-container-1">
+        
+            
+                <div class="items-1"><img src="images/yosemite-pano-1-best-for-emails.jpg" height="75" object-position="scale-down"></div>
+                <div class="items-1"><img src="images/blue_2_cloud.jpg" height="75" object-position="scale-down"></div>
+                <div class="items-1"><img src="images/yosemite-2-emails.jpg" height="75" object-position="scale-down"></div>
+                <div class="items-1"><img src="images/blue_3_brush2.jpg" height="75" object-position="scale-down"></div>
+                <div class="items-1"><img src="images/sequoia-pano-1-email.jpg" height="75" object-position="scale-down"></div>                            
+            
+                    
     </div>
 
-  
-   
-   
+     
    
     <div>
         <div class="hero-text">
@@ -45,8 +43,10 @@
  
         </div>
     </div>
-    <main>
-        <div id="main">
+
+    
+    <main class="container-2">
+        <div>
             <article class="main-articles">
                 <h1>Basics </h1>
                 <ul>
@@ -181,15 +181,22 @@
                         <li>Best Ice Cream:  gorganzola & candied pecans (<a href="https://lickicecream.tumblr.com/">Lick)</a> </li>
                     </ul>  
 
-                <div>
-                    <table class="table-center">
-                        <tr>
-                            <td class="table-data-image-food-logo"><img src="/images/figo.webp" alt="Figo" width="134" height="55px"> </td> 
-                            <td class="table-data-image-food-logo"><img src="/images/szarotka.png" alt="Szarotka" width="185px" height="55px"> </td>
-                            <td class="table-data-image-food-logo"><img src="/images/big-hoffas.png" alt="Big Hoffa's" width="55px" height="55px"> </td>
-                            <td class="table-data-image-food-logo"><img src="/images/frontera-grill.png" alt="Frontera Grill" width="178" height="55px"> </td>
-                        </tr>
-                    </table>
+                <div class="rest-logos">
+                    
+                       
+                            <div class="rest-logos-img">
+                                <img src="images/figo.webp" alt="Figo" width="134" height="55px"> 
+                            </div> 
+                            <div class="rest-logos-img">
+                                <img src="images/szarotka.png" alt="Szarotka" width="185px" height="55px"> 
+                            </div>
+                            <div class="rest-logos-img">
+                                <img src="images/big-hoffas.png" alt="Big Hoffa's" width="55px" height="55px"> 
+                            </div>
+                            <div class="rest-logos-img">
+                                <img src="images/frontera-grill.png" alt="Frontera Grill" width="178" height="55px"> 
+                            </div>
+                     
                 </div>
             </article>
  
@@ -255,7 +262,7 @@
                         <article class="main-articles">
                             <h1>Publications</h1>
                 
-        <ul>
+                            <ul>
                                 <li>"Creative Reverence" in <i>Escaping Eden</i>
                                 <li>"James' <i>The Bostonians</i>" in <i>The Explicator</i>
 
@@ -278,6 +285,10 @@
             </article>
 
         </div>
+        
+        <!--end of main div-->
+
+
         <div id="side">
             <article class="side-articles" id="profile"style="background-color:rgba(3, 15, 119, 0.212)" >
                 <img id="profile-image" src="images/ce_headshot.jpg">
