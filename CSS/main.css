@@ -17,7 +17,7 @@ nav li {
 }
 
 nav ul{
-    background-color: rgba(3, 15, 119, 0.521);
+    background-color: rgb(71, 3, 119);
     margin: 0;  /*on outside of container, nav ul in this case*/
     list-style-type: none; /* removes bullets from nav list elements*/
     width: 100%;
@@ -25,12 +25,18 @@ nav ul{
     
 }
 
+nav a:link{
+    color: rgb(130, 154, 220)
+}
+
 nav {
     display: block;
     color: lightsteelblue;
 }
 
-
+nav a:visited{
+    color: rgb(192, 203, 255);
+}
 
 nav a{
     
@@ -40,7 +46,7 @@ nav a{
 nav a:hover{
     color:white;
     background-color: rgba(3, 15, 119, 0.521);
-    border-radius: 10px;
+    
     padding: 1px;
 }
 
@@ -72,6 +78,11 @@ second for bottom*/
     margin-top:20px /*keeps in line with other elements*/
 }
 
+.base-pic{
+    width: 100%;
+    margin-top:20px /*keeps in line with other elements*/
+}
+
 .hero-text{
     color: darkblue;
     text-align: center;
@@ -88,13 +99,12 @@ second for bottom*/
     padding-top: 20px;
     
 }
-#main-employer {
-    width: 45%;
+/* #main-employer {
+    width:;
     align-self:center;
     height: 100%;  /*prevents any overflow from spilling in below #side?*/
-    padding-left: 20px;
-    padding-top: 20px;
-}
+   
+/* } */
 
 #side {
     width: 20%; /* 75% + 20% != 100% because need some room for margins around sidebar/main */
@@ -109,6 +119,12 @@ second for bottom*/
     height: 100%; /*prevents any overflow from spilling in below #main?*/
     padding: 20px;
 }
+.flower-banner{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%
+}
+
 
 #main-daughter {
     width: 35%;
@@ -157,14 +173,14 @@ second for bottom*/
 }
 
 .side-articles:before, .main-articles:before {
- content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-top: 20px solid white;
-        border-right: 20px solid darkgray;
-        width: 0;
-}
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 20px solid white;
+    border-right: 20px solid darkgray;
+    width: 0;
+   }
 
 
 .side-articles{
@@ -253,7 +269,7 @@ width:300px
 
 .wife-banner{
     background-image: url("images/flower-banner-purple-1600x1200.jpg");
-    background-repeat: repeat;
+   /* background-repeat: repeat;
     width: cover;
     height: 50px;
     position: relative;  /*keeps in line with other elements*/ 
@@ -313,7 +329,12 @@ width:300px
 
 .employ{
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    padding-top: 15px;   
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    padding-top: 15px;  
+}
+
+.employ-size{
+    width: 700px;
+    margin:20px;
 }

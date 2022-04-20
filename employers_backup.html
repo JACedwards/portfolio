@@ -19,8 +19,8 @@
             <li><a href="employers.html">Employers</a></li>
         </ul>        
     </nav>
-    <div style="padding-top: 50px">
-        <table class="table-center" >
+    <div>
+        <table class="table-center">
             <tr>
                 <td class="table-data-image-employ"><img src="images/alphabet.jpg" alt="Alphabet Logo" width="135px" height="76px"> </td> 
                 <td class="table-data-image-employ"><img src="images/facebook.webp" alt="Facebook Logo" width="76px" height="76px"></td> 
@@ -36,29 +36,24 @@
     </div>
     <main class="employ">
 
-       
-            <div class="main-articles" class="employ-size" style="margin-right:20px; width:350px">
-                <br>
-                <legend><b>Prospective Employers</b></legend>
-                <p style="color:darkred; font-size:12px"> (If you do not see your logo above, don't bother!)</p>
+        <div id="main-employer">
+            <article class="main-articles">
+                <h1>Prospective Employers</h1>
+                <p style="color:darkred"> (If you do not see your logo above, don't bother!)</p>
 
 
                 <form action="">
                     <label for="job-type">Type of Job:</label><br>
                     <input type="text" id="job-type" name="job-type" value="(If not senior software engineer, don't bother.)">
-                    <br>
-                    <label for="time_date">Time & Date of Hiring: </label><br>
+                    <br><br>
+                    <label for="time_date">Time & Date of Hiring: Choose "today" or expect a ransomeware attack tomorrow.</label><br>
                     <input type="datetime-local" id="time_date" name="time_date">
-                    <br>
                     
-                    
-                  
+                    <br><br>
                 </form>
-            </div>    
-            
-            <div class="main-articles" class="employ-size" style="margin-right:20px; width:350px">
-                <br>
-                 
+
+                
+                <fieldset> 
                     <legend><b>Salary Range</b></legend> 
                     <p>Indicate salary between $0 and $400,000:</p>
                     
@@ -68,25 +63,18 @@
                     <p>(If you attempt to drag slider below $200,000, malware will be installed on your mainframe.)</p>
 
                     </form>   
-                
-            </div>
-            
-            <div class="main-articles" class="employ-size" style="margin-right:20px;width:350px">
+                </fieldset>
+
                 <form action="">
-                    
+                    <fieldset>
                         <legend><b>Images</b></legend>
                         <p id="field-color">Upload images of my corner office:</p>
-                        <input type="file" name="office-image">
-                        <br>
-                        <input type="submit" value="Upload" color="black">
-                    
+                        <input type="file" name="office-image"><br /><br />
+                        <input type="submit" value="Upload" color="black"><br />
+                    </fieldset>
                     <br>
-                </form>
-            </div>
-
-            <div class="main-articles" class="employ-size" style="margin-right:20px;width:350px">
-                <form>
                     
+                    <fieldset>
                         <legend><b>CEO Information</b></legend>                    
                         <label for="phone">Enter <i>personal</i> mobile number:</label>
                         <br>
@@ -97,10 +85,15 @@
                         <input type="text" id="username" name="username"><br>
                         <label for="pwd">Password:</label><br>
                         <input type="password" id="pwd" name="pwd">
-                    
+                    </fieldset>
                     
                 </form> 
-            </div>
+                
+
+
+            </article>
+           
+        </div>
        
     </main>
    
