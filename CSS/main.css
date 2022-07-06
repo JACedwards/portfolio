@@ -53,7 +53,7 @@ nav a:hover{
 .nav-links{
     font-size: 30px;
     color: lightsteelblue;
-    position: fixed;
+    /* position: fixed; */
 }
 
 /*linear-gradient: example below is black to black gradient with 0.5 opacity. can change rbg values
