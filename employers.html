@@ -347,6 +347,17 @@ width:300px
     width: 700px;
     margin:20px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.img-r {
+    border-radius: 50%;
+}
     </style>
     
 </head>
@@ -361,89 +372,146 @@ width:300px
             <li><a href="employers.html">Employers</a></li>
         </ul>        
     </nav>
-    <div style="padding-top: 50px">
-        <table class="table-center" >
-            <tr>
-                <td class="table-data-image-employ"><img src="images/alphabet.jpg" alt="Alphabet Logo" width="135px" height="76px"> </td> 
-                <td class="table-data-image-employ"><img src="images/facebook.webp" alt="Facebook Logo" width="76px" height="76px"></td> 
-                <td class="table-data-image-employ"><img src="images/linkedin.svg" alt="LinkedIn Logo" width="114" height="76px"></td> 
-                <td class="table-data-image-employ"><img src="images/adobe.png" alt="Adobe Logo" width="125px" height="76px"></td> 
-                 <td class="table-data-image-employ"><img src="images/zoom_300x300.png" alt="Zoom Logo" width="76px" height="76px"></td> 
-                 <td class="table-data-image-employ"><img src="images/TikTok_3751x2751.png" alt="TikTok Logo" width="76" height="76px"></td> 
-                 <td class="table-data-image-employ"><img src="images/kadince.png" alt="Kadince Logo" width="150" height="76px"></td> 
-            </tr>
+
+    <div class="flex-container-1" style="padding-top: 50px">
+        
+            
+        <div class="items-1"><img src="images/yosemite-pano-1-best-for-emails.jpg" height="75" object-position="scale-down"></div>
+        <div class="items-1"><img src="images/blue_2_cloud.jpg" height="75" object-position="scale-down"></div>
+        <div class="items-1"><img src="images/yosemite-2-emails.jpg" height="75" object-position="scale-down"></div>
+        <div class="items-1"><img src="images/blue_3_brush2.jpg" height="75" object-position="scale-down"></div>
+        <div class="items-1"><img src="images/sequoia-pano-1-email.jpg" height="75" object-position="scale-down"></div>                                            
+</div>
+
+<div>
+<div class="hero-text">
+    <p style="font-size: 45px" >Portfolio</p>
+    <p style="font-size: 35px; margin-top:-40px" >Craig Edwards</p>
+
+</div>
+</div>
 
 
-        </table>
-    </div>
-    <h3 style="align-content:center; text-align:center">Sampling of Craig's Sense of Humor</h3>
+
     <main class="employ" style="align-content:center">
 
        
-            <div class="main-articles" class="employ-size" style="margin-right:20px; width:350px">
-                <br>
-                <legend><b>Prospective Employers</b></legend>
-                <p style="color:darkred; font-size:12px"> (If you do not see your logo above, don't bother!)</p>
-
-
-                <form action="">
-                    <label for="job-type">Type of Job:</label><br>
-                    <input type="text" id="job-type" name="job-type" value="(If not senior software engineer, don't bother.)">
-                    <br>
-                    <label for="time_date">Time & Date of Hiring: </label><br>
-                    <input type="datetime-local" id="time_date" name="time_date">
-                    <br>
-                    
-                    
-                  
-                </form>
-            </div>    
+            <div class="main-articles" class="employ-size" style="margin-right:30px; margin-bottom:30px; width:350px">
+                <table>
+                    <tr>
+                        <p>
+                            <img src="images/profile_smile.JPG" alt="Profile Pic" width="235px" height="313x" class="center" >
+                        </p>    
+                    </tr>
+                    <tr>
+                        <p style="text-align:center">
+                            <a href="mailto:craigephd@gmail.com">Email</a><span>  |  </span> <a href="https://www.linkedin.com/in/craig-edwards-fs-phd/">LinkedIn</a> <span>  |  </span> 
+                            <a href="https://github.com/JACedwards">Github</a><br>
+                        </p>
+                    </tr>
+                </table>
+            </div> 
             
-            <div class="main-articles" class="employ-size" style="margin-right:20px; width:350px">
-                <br>
-                 
-                    <legend><b>Salary Range</b></legend> 
-                    <p>Indicate salary between $0 and $400,000:</p>
-                    
-                    <form action="/action_page.php" method="get">
-                    
-                    <input type="range" id="vol" name="vol" min="0" max="400000">
-                    <p>(If you attempt to drag slider below $200,000, malware will be installed on your mainframe.)</p>
-
-                    </form>   
-                
+            <div class="main-articles" class="employ-size" style="margin-right:30px; margin-bottom:30px;width:350px">
+                <table>
+                    <tr >
+                        <p style="text-align:center">Bird on the Brain</p>
+                        <p style="text-align:center">Flask App for Birders</p>
+                    </tr>
+                    <tr >
+                        <p>
+                            <a href="https://bird-on-the-brain-flask.herokuapp.com/">
+                            <img src="images/bird-on-brain.png" alt="Bird on the Brain Flask App" width="335px" height="214px"  class="center" >
+                        </a>
+                        </p>
+                    </tr>
+                </table>
             </div>
+
+            <div class="main-articles" class="employ-size" style="margin-right:30px; margin-bottom:30px;width:350px">
+                <table>
+                    <tr >
+                        <p style="text-align:center">Bird Brain Philanthropy</p>
+                        <p style="text-align:center">Ract App eCommerce Riff</p>
+                    </tr>
+                    <tr >
+                        <p>
+                            <a href="https://jacedwards.github.io/Bird-Brain-Philanthropy/#/">
+                            <img src="images/bird-philanthropy.png" alt="Bird on the Brain Flask App" width="335px" height="214px"  class="center" >
+                        </a>
+                        </p>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="main-articles" class="employ-size" style="margin-right:30px; margin-bottom:30px;width:350px">
+                <table>
+                    <tr >
+                        <p style="text-align:center">GE & Delta Software Manager</p>
+                        <p style="text-align:center">Recommendation</p>
+                    </tr>
+                    <tr >
+                        <p>
+                            <a href="images/Rec_Scranton.pdf">
+                            <img src="images/Scranton-pic-cropped.jpg" alt="Dr. Bruce Scranton" width="248" height="220"  class="center">
+                        </a>
+                        </p>
+                    </tr>
+                </table>
+            </div>
+
+
+
+            <div class="main-articles" class="employ-size" style="margin-right:30px; margin-bottom:30px;width:350px">
+                <table>
+                    <tr >
+                        <p style="text-align:center">Chair of Art & Design</p>
+                        <p style="text-align:center">Recommendation</p>
+                    </tr>
+                    <tr >
+                        <p>
+                            <a href="images/Rec_Greeley.pdf">
+                            <img src="images/Greeley-pic-cropped.jpg" alt="Dr. Anne Greeley" width="250" height="220"  class="center">
+                        </a>
+                        </p>
+                    </tr>
+                </table>
+            </div>
+
+            
+            <div class="main-articles" class="employ-size" style="margin-right:30px; margin-bottom:30px; width:350px">
+                <table>
+                    <tr >
+                        <p style="text-align:center">Resum&eacute;</p>
+                    </tr>
+                    <tr >
+                        <img src="images/Resume.png" alt="Resume" width="250" height="321"  class="center">
+                    </tr>
+
+                </table>
+
+
+            </div>
+
             
             <div class="main-articles" class="employ-size" style="margin-right:20px;width:350px">
-                <form action="">
-                    
-                        <legend><b>Images</b></legend>
-                        <p id="field-color">Upload images of my corner office:</p>
-                        <input type="file" name="office-image">
-                        <br>
-                        <input type="submit" value="Upload" color="black">
-                    
-                    <br>
-                </form>
-            </div>
+                <table>
+                    <tr >
+                        <p style="text-align:center">Cover Letter</p>
+                    </tr>
+                    <tr >
+                        <img src="images/Cover_Letter.png" alt="Resume" width="250" height="321"  class="center">
+                    </tr>
 
-            <div class="main-articles" class="employ-size" style="margin-right:20px;width:350px">
-                <form>
-                    
-                        <legend><b>CEO Information</b></legend>                    
-                        <label for="phone">Enter <i>personal</i> mobile number:</label>
-                        <br>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-                    
-                        <br>
-                        <label for="username">Username for HR Computer Systems:</label><br>
-                        <input type="text" id="username" name="username"><br>
-                        <label for="pwd">Password:</label><br>
-                        <input type="password" id="pwd" name="pwd">
-                    
-                    
-                </form> 
+                </table>
+
             </div>
+            
+
+
+
+
        
     </main>
    
@@ -451,7 +519,7 @@ width:300px
     <footer>
         <hr>
         <div>
-            &copy Craig Edwards 2022
+
         </div>
     </footer>
 
