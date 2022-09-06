@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio: Craig Edwards</title>
-    <link rel="stylesheet" href="CSS/main.css">
-    <style>
-        body, html {
+a {
+    text-decoration: none;
+}
+
+body, html {
     height: 100%;
     margin: 0px;
 }
@@ -18,12 +13,12 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-nav li {
+/* nav li {
     display: inline;
     margin: 20px;
     
     
-}
+} */
 
 nav ul{
     background-color: rgb(71, 3, 119);
@@ -54,9 +49,11 @@ nav a{
 
 nav a:hover{
     color:white;
-    background-color: rgba(3, 15, 119, 0.521);
-    
-    padding: 1px;
+    font-weight:lighter;
+    text-decoration: none;
+    /* background-color: rgba(3, 15, 119, 0.521); */
+/*     
+    padding: 1px; */
 }
 
 .nav-links{
@@ -339,7 +336,7 @@ width:300px
 .employ{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    /* justify-content:flex-start; */
     padding-top: 15px;  
 }
 
@@ -347,143 +344,3 @@ width:300px
     width: 700px;
     margin:20px;
 }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.img-r {
-    border-radius: 50%;
-}
-
-p {
-    font-size: 20px
-}
-    </style>
-    
-</head>
-<body>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="https://bird-on-the-brain-flask.herokuapp.com/">Flask App</a></li>
-            <li><a href="https://jacedwards.github.io/Bird-Brain-Philanthropy/#/">React App</a></li>
-            <li><a href="recommendations.html">Recommendations</a></li>
-            <li><a href="images/Resume.pdf">Resum&eacute;</a></li>
-            <li><a href="images/Cover_letter.pdf">Cover Letter</a></li>
-
-        </ul>        
-    </nav>
-
-    <!-- <div class="flex-container-1" style="padding-top: 20px; margin-bottom: -35px">
-        
-            
-        <div class="items-1"><img src="images/yosemite-pano-1-best-for-emails.jpg" height="75" object-position="scale-down"></div>
-        <div class="items-1"><img src="images/blue_2_cloud.jpg" height="75" object-position="scale-down"></div>
-        <div class="items-1"><img src="images/yosemite-2-emails.jpg" height="75" object-position="scale-down"></div>
-        <div class="items-1"><img src="images/blue_3_brush2.jpg" height="75" object-position="scale-down"></div>
-        <div class="items-1"><img src="images/sequoia-pano-1-email.jpg" height="75" object-position="scale-down"></div>                                            
-    </div> -->
-
-<div>
-<div class="hero-text">
-    <p style="font-size: 40px" >Recommendations</p>
-
-</div>
-</div>
-
-
-
-    <main class="employ" style="align-content:center">
-
-
-        <div class="main-articles" class="employ-size" style="margin-right:30px; margin-bottom:30px;width:350px">
-            <a style="text-decoration: none" href="images/Rec_Scranton.pdf">
-            <table>
-                <tr >
-                    <p style="text-align:center">GE & Delta Software Manager</p>
-                    <p style="text-align:center; margin-bottom:-5px">Recommendation</p>
-                    <br>
-                </tr>
-                <tr >
-                    <p>
-                        <a href="images/Rec_Scranton.pdf">
-                        <img src="images/Scranton-pic-cropped.jpg" alt="Dr. Bruce Scranton" width="248" height="220"  class="center">
-                    </a>
-                    </p>
-                </tr>
-            </table>
-            </a>
-        </div>
-
-
-
-        <div class="main-articles" class="employ-size" style="margin-right:30px; margin-bottom:30px;width:350px">
-            <a style="text-decoration: none" href="images/Rec_Greeley.pdf">
-            <table>
-                <tr >
-                    <p style="text-align:center">Chair of Art & Design</p>
-                    <p style="text-align:center;margin-bottom:-5px">Recommendation</p>
-                    <br>
-                </tr>
-                <tr >
-                    <p>
-                        <a href="images/Rec_Greeley.pdf">
-                        <img src="images/Greeley-pic-cropped.jpg" alt="Dr. Anne Greeley" width="250" height="220"  class="center">
-                    </a>
-                    </p>
-                </tr>
-            </table>
-            </a>
-        </div>
-
-        <div class="main-articles" class="employ-size" style="margin-right:30px; margin-bottom:30px;width:350px">
-            <a style="text-decoration: none" href="https://www.linkedin.com/in/craig-edwards-fs-phd/details/recommendations/?detailScreenTabIndex=0">
-
-                <div>
-
-            <table>
-                <tr >
-                    <p style="text-align:center">LinkedIn</p>
-                    <p style="text-align:center;margin-bottom:-5px">Recommendations</p>
-                    <br>
-                </tr>
-                <tr >
-                    <p>
-                        <a href="https://www.linkedin.com/in/craig-edwards-fs-phd/details/recommendations/?detailScreenTabIndex=0">
-                        <img src="images/linkedin_logo_cropped.jpg" alt="Dr. Anne Greeley" width="250" height="220"  class="center">
-                    </a>
-                    </p>
-                </tr>
-            </table>
-            </div>
-            </a>
-        </div>
-
-            
-            
-            
-
-
-
-
-       
-    </main>
-   
-   
-    <footer>
-        <hr>
-        <div>
-
-        </div>
-    </footer>
-
-    
-
-
-
-</body>
-</html>
